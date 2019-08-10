@@ -26,7 +26,7 @@
 
     <div class="container intro-container clearfix">
         <img id="intro-image" src="images/responsive-layout-profile.png" alt="profile picture of the author of this page"/>
-        <p id="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!
+        <p id="intro clearfix">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!
             </p>
         </div>
 
@@ -71,18 +71,24 @@
         </div>
     </main>
 
-    <div id="contact" class="container contact">
+    <div class="container contact">
         <div class="border-box">
-            <h2>Contact</h2>
+            <div class="contact-box"> <h2>Contact</h2>
             <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-            <p>Phone +1 (111) 555-1234</p>
-            <p>Email email@yoursite.com</p>
+            <p>Phone: <b>+1 (111) 555-1234</b></p>
+            <p>Email: <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+        </div>
         </div>
     </div>
 
     <footer class="container clearfix">
         <span id="footer-name">Student name</span>
         <span id="footer-to-top"><a href="#">Back to Top</a></span>
+        <ul class="footer-nav-list"> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </footer>
 </body>
 </html>
