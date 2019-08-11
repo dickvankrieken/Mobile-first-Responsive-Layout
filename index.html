@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">  
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Dick van Krieken</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> 
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Basic&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="main-header">
-        <div class="container header-container">     
-           <h1 class="title">Student Name</h1>
-           
-        <nav class="header-nav clearfix">
-            <ul class="header-nav-list"> 
-                <li><a href="#">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <div class="container header-container clearfix">
+            <h1 class="title">Dick van Krieken</h1>
 
-        </nav>
-    </div>
+            <nav class="header-nav clearfix">
+                <ul class="header-nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
 
-    <div class="container intro-container clearfix">
-        <img id="intro-image" src="images/responsive-layout-profile.png" alt="profile picture of the author of this page"/>
-        <p id="intro clearfix">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!
+            </nav>
+        </div>
+
+        <div class="container intro-container clearfix">
+            <img id="intro-image" src="images/responsive-layout-profile.png"
+                alt="profile picture of the author of this page" />
+            <p id="intro clearfix">Hi! I'm a front-end developer who loves responsive design and css. I recently
+                finished learning front-end web development at Treehouse and am excited to put all my skills to use!
             </p>
         </div>
 
@@ -37,31 +42,36 @@
         <div class="item clearfix">
             <img src="images/portfolio-1.png" alt="picture of a marketing project">
             <h3>Marketing Page</h3>
-            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.
+            </p>
         </div>
-        
+
         <div class="item clearfix">
             <img src="images/portfolio-2.png" alt="">
             <h3>Search Page</h3>
-            <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+            <p>This project searches through a specific database to find information that the user is trying to look up.
+            </p>
         </div>
 
         <div class="item clearfix">
             <img src="images/portfolio-3.png" alt="">
             <h3>Travel App</h3>
-            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+            <p>This project compares travel times based on different transportation methods and tells you the best one.
+            </p>
         </div>
 
         <div class="item clearfix">
             <img src="images/portfolio-4.png" alt="">
             <h3>Map of Favorite Spots</h3>
-            <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+            <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself
+                walking tour.</p>
         </div>
 
         <div class="item clearfix">
             <img src="images/portfolio-5.png" alt="">
             <h3>Photo Gallery</h3>
-            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through
+                photos.</p>
         </div>
 
         <div class="item clearfix">
@@ -71,24 +81,49 @@
         </div>
     </main>
 
-    <div class="container contact">
-        <div class="border-box">
-            <div class="contact-box"> <h2>Contact</h2>
-            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-            <p>Phone: <b>+1 (111) 555-1234</b></p>
-            <p>Email: <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+    <section id="skills" class="container skills-container clearfix">
+        <h2>Skills</h2>
+        <div class="item clearfix">
+            <img src="images/htmlcss.png" alt="picture of a marketing project">
+            <h3>HTML and CSS</h3>
+            <p>I am proficient in using HTML to build webpages.</p>
         </div>
-        </div>
-    </div>
 
-    <footer class="container clearfix">
-        <span id="footer-name">Student name</span>
+        <div class="item clearfix">
+            <img src="images/js.jpg" alt="">
+            <h3>Javascript</h3>
+            <p>I am proficient in using Javascript to build webapps.</p>
+        </div>
+
+        <div class="item clearfix">
+            <img id="image-resize" src="images/wordpress.jpg" alt="">
+            <h3>WordPress</h3>
+            <p>I possess the skill to develop websites using the WordPress Content Management System.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container contact">
+        <div class="border-box">
+            <div class="contact-box">
+                <h2>Contact</h2>
+                <p>If you're interested in chatting or want more information about what I've been working on, I'd love
+                    to hear from you!</p>
+                <p>Phone: <b>+1 (111) 555-1234</b></p>
+                <p>Email: <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container footer clearfix">
+        <span id="footer-name">Dick van Krieken</span>
         <span id="footer-to-top"><a href="#">Back to Top</a></span>
-        <ul class="footer-nav-list"> 
+        <ul class="footer-nav-list">
             <li><a href="#">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </footer>
 </body>
+
 </html>
